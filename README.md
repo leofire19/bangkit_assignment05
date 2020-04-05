@@ -19,7 +19,7 @@ In here we compare several algorithm to find baseline model:
 7. Extra Tree
 8. Gradient Boosting
 
-Based on k-fold Cross Validation leaaderboard, XGBoost has the best metrics peformance AUC 0.961946. 
+Based on k-fold Cross Validation leaaderboard, XGBoost has the best metrics peformance AUC 0.975610. 
 Its performance increase after we try feature selection based on importance and hyperparameter tuning using GridSearchCV. 
 (AUC 0.985906). Features = 'CDR','M/F_F','MMSE','SES','Age','ASF','MR Delay','nWBV','EDUC'.
 
